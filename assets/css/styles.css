@@ -1,0 +1,23 @@
+/* Navbar */
+
+.navbar-brand {
+  font-size: 40px !important;
+  color: #f0a868 !important;
+}
+
+.navbar-custom {
+  height: 130px;
+  font-size: 15px;
+  opacity: 1 ;
+}
+
+.nav-page {
+  padding-left:15px;
+  padding-right:15px;
+}
+.nav-page :hover {
+color: #f0a868 !important;
+}
+.nav-social {
+    color: #f0a868 !important;
+}
