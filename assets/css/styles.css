@@ -1,26 +1,29 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 /* Navbar */
 
 .navbar-brand {
-  font-size: 40px !important;
-  color: #f0a868 !important;
+    font-size: 40px !important;
+    color: #f0a868 !important;
 }
 
 .navbar-custom {
-  height: 130px;
-  font-size: 15px;
+    height: 130px;
+    font-size: 15px;
 }
 
 .nav-page {
-  padding-left:15px;
-  padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 .nav-page :hover {
-color: #f0a868 !important;
+    color: #f0a868 !important;
 }
+
 .nav-social {
     color: #f0a868 !important;
 }
@@ -28,24 +31,73 @@ color: #f0a868 !important;
 /* carousel */
 
 .carousel .carousel-item {
-  height: 450px;
+    height: 450px;
 }
 
 .carousel-item img {
     position: absolute;
-    object-fit:cover;
+    object-fit: cover;
     top: 0;
     left: 0;
     min-height: 450px;
 }
 
 .intro {
-    height: 400px;
-    margin: 50px 100px 50px 100px;
-}
+    min-height: 400px;
+    padding: 50px;
+    }
 
 .intro-content {
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-right: 50px;
+   margin-right: 50px;
+   margin-left:5%;
+   font-weight: 300;
+}
+.cooker {
+    margin-right:5%;
+}
+
+.menus {
+    height: 600px;
+    background-color: grey;
+    position: relative;
+}
+
+.menus-title {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-weight: 300;
+}
+
+.masterchef-option {
+    width: 60%;
+text-align: center;
+    position: relative;
+    left: 25%;
+    top: 50px;
+    
+ 
+}
+.menu-option-button {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    background: rgba(15, 13, 13, 0.568);
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.option2-option {
+    width: 60%;
+    text-align: center;
+    position: relative;
+    right: 0%;
+    top: 50px;
+    
+ 
 }
