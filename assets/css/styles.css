@@ -7,7 +7,7 @@ body {
 
 .navbar-brand {
     font-size: 40px !important;
-    color: #f0a868 !important;
+    color: #be814b !important;
 }
 
 .navbar-custom {
@@ -21,7 +21,7 @@ body {
 }
 
 .nav-page :hover {
-    color: #f0a868 !important;
+    color: #be814b !important;
 }
 
 .nav-social {
@@ -42,62 +42,119 @@ body {
     min-height: 450px;
 }
 
-.intro {
-    min-height: 400px;
-    padding: 50px;
-    }
-
-.intro-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
-   margin-right: 50px;
-   margin-left:5%;
-   font-weight: 300;
-}
-.cooker {
-    margin-right:5%;
-}
-
 .menus {
-    height: 600px;
-    background-color: grey;
+    height: 650px;
+    background-color: rgb(82, 82, 82);
     position: relative;
+    width: 100%
 }
 
 .menus-title {
     text-align: center;
-    padding-top: 50px;
-    color: white;
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 0.822);
     font-weight: 300;
 }
 
 .masterchef-option {
-    width: 60%;
-text-align: center;
-    position: relative;
-    left: 25%;
-    top: 50px;
-    
- 
-}
+    width: 30%;
+    position: absolute;
+    top: 130px;
+    left: 15%;
+    }
 .menu-option-button {
     width: 100%;
-    height: auto;
+    height: 150px;
+    bottom: 0;
     position: absolute;
-    bottom: 10px;
     text-align: center;
     background: rgba(15, 13, 13, 0.568);
-    color: white;
-    font-weight: 300;
-    font-size: 15px;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 20px;
+
 }
 
 .option2-option {
-    width: 60%;
-    text-align: center;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    right:15%;
+}
+
+.font100 {
+    font-weight: 100;
+}
+
+.dark-buttons {
+    font-size: 1rem;
+    background: rgba(15, 13, 13, 0.568);
+    color: rgba(255, 255, 255, 0.822);
+    padding: 7px 25px 8px 25px;
+    border: 2px solid #be814bbe ;
+}
+.light-buttons {
+    font-size: 1rem;
+    color: rgba(15, 13, 13, 0.568);
+    background: rgba(255, 255, 255, 0.568);
+    padding: 7px 25px 8px 25px;
+    border: 2px solid #be814bbe ;
+}
+
+.bricks {
+    width: 30%;
+    position: absolute;
+    top: 130px;
+    left: 15%;
+    }
+
+    .journey {
+    height: 650px;
     position: relative;
-    right: 0%;
-    top: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.black-buttons {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.822);
+    background: rgba(3, 3, 3, 0.007);
+    padding: 7px 25px 8px 25px;
+    border: 2px solid #be814bbe ;
+}
+
+.journey-content {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    right:15%;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 100;
+}
+
+.cooker {
+    width: 30%;
+    position: absolute;
+    top: 130px;
+    right: 15%;
+    }
+
+  .intro-content {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    left:15%;
+    color: rgba(22, 17, 17, 0.685);
+    font-weight: 100;
+}  
+   .intro {
+    height: 650px;
+    position: relative;
+    width: 100%;
+    background-color: white;
     
- 
 }
