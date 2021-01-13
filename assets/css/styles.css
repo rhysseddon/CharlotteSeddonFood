@@ -43,7 +43,7 @@ body {
 }
 
 .menus {
-    height: 650px;
+    height: 600px;
     background-color: rgb(82, 82, 82);
     position: relative;
     width: 100%
@@ -64,7 +64,7 @@ body {
     }
 .menu-option-button {
     width: 100%;
-    height: 150px;
+    height: 140px;
     bottom: 0;
     position: absolute;
     text-align: center;
@@ -73,7 +73,6 @@ body {
     font-weight: 400;
     font-size: 12px;
     padding-top: 20px;
-
 }
 
 .option2-option {
@@ -111,7 +110,7 @@ body {
     }
 
     .journey {
-    height: 650px;
+    height:600px;
     position: relative;
     width: 100%;
     background-color: black;
@@ -138,21 +137,20 @@ body {
 .cooker {
     width: 30%;
     position: absolute;
-    top: 130px;
+    top: 80px;
     right: 15%;
     }
 
   .intro-content {
     width: 30%;
-    height: auto;
     position: absolute;
-    top: 130px;
+    top: 80px;
     left:15%;
     color: rgba(22, 17, 17, 0.685);
     font-weight: 100;
 }  
    .intro {
-    height: 650px;
+    height: 550px;
     position: relative;
     width: 100%;
     background-color: white;
